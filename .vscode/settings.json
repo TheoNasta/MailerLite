@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "dist/css/": true,
+        ".dockerignore": true,
+        "**/*.sh": true,
+        "yarn.lock": true,
+        "docker-compose.yaml": true,
+        "Dockerfile": true,
+        "live-reload-server.js": true,
+        "package.json": true,
+    }
+}

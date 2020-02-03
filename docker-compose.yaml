@@ -1,0 +1,9 @@
+app:
+  image: mailerlite
+  container_name: mailerlite
+  ports:
+    - "8083:8083"
+  volumes:
+    - ./:/app/
+    - /app/node_modules
+  command: sleep infinity

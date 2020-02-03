@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "sass": "node-sass --output-style=compressed --output=./dist/css --watch scss",
+    "live-reload": "node /app/live-reload-server.js",
+    "start": "concurrently --success all \"npm:sass\" \"npm:live-reload\""
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "concurrently": "^5.1.0",
+    "live-server": "^1.2.1"
+  }
+}
