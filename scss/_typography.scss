@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/proximanova-regular.woff") format("woff");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/proximanova-bold.woff") format("woff");
+    font-weight: 800;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/proximanova-semibold.woff") format("woff");
+    font-weight: 700;
+}
 h1 {
     font-weight: 800;
 }
